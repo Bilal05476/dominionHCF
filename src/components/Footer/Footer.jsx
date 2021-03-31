@@ -1,0 +1,155 @@
+import "./Footer.css";
+import logo from "../../img/footLogo.png";
+import gallery1 from "../../img/gallery1.jpg";
+import gallery2 from "../../img/gallery2.jpg";
+import gallery3 from "../../img/gallery3.jpg";
+import gallery4 from "../../img/gallery4.jpg";
+import gallery5 from "../../img/gallery5.jpg";
+
+export default function Footer() {
+  const GalleryImages = [
+    {
+      image: gallery1,
+    },
+    {
+      image: gallery2,
+    },
+    {
+      image: gallery3,
+    },
+    {
+      image: gallery4,
+    },
+    {
+      image: gallery5,
+    },
+    {
+      image: gallery1,
+    },
+  ];
+  return (
+    <div className="container-fluid footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3 my-2">
+            <img className="footerLogo" src={logo} alt="webLogo" />
+            <h5>Our Mission</h5>
+            <p>
+              Our goal is to make a difference in the lives of people who are in
+              desperate need. We aspire to interrupt negative patterns of broken
+              individuals in need of right now assistance. We will work
+              diligently to offer a better way of life, and it is through our
+              networking efforts we will offer a hand up, not a handout.?
+            </p>
+          </div>
+          <div className="col-md-3 my-4">
+            <h4>Useful Links</h4>
+            <a href="#home" className="footer__link">
+              Home
+            </a>{" "}
+            <br />
+            <a href="#about" className="footer__link">
+              About
+            </a>{" "}
+            <br />
+            <a href="#causes" className="footer__link">
+              Causes
+            </a>{" "}
+            <br />
+            <a href="#whatwe" className="footer__link">
+              What we doing?
+            </a>{" "}
+            <br />
+            <a href="#contact" className="footer__link">
+              Contact
+            </a>{" "}
+            <br />
+            <div className="footer__icons my-3">
+              <a
+                href="https://facebook.com/Dominion-Health-Care-Institute-Staffing-co-108060881361569/"
+                target="blank"
+              >
+                <i className="fa fa-facebook"></i>
+              </a>
+              <a
+                href="https://instagram.com/dominionhcis?igshid=18z0sq65lzdxm"
+                target="blank"
+              >
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a
+                href="https://linkedin.com/company/dominion-health-care-institute-stuffing-co"
+                target="blank"
+              >
+                <i className="fa fa-linkedin"></i>
+              </a>
+              <a href="email:info@dominionhcis.com">
+                <i className="fa fa-google"></i>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-3 my-4 gallery">
+            <h4>Gallery</h4>
+            <div className="row">
+              {GalleryImages.map((item, ind) => {
+                return (
+                  <div
+                    className="col-6 col-md-5 p-0 imageContain"
+                    data-aos="flip-right"
+                    key={ind}
+                  >
+                    <img
+                      className="galleryImage"
+                      src={item.image}
+                      alt="gallery"
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <div className="col-md-3 contact my-4">
+            <h4>Quick Contact</h4>
+            <div className="footerCont">
+              <div className="address">
+                <i className="fa fa-map-marker"></i>
+                <strong>Physical Office</strong>
+              </div>
+              <p className="m-2">
+                439 Westwood Suite 157 Fayetteville, NC 28314
+              </p>
+              <div className="address">
+                <i className="fa fa-map-marker"></i>
+                <strong>Corporate Address</strong>
+              </div>
+              <p className="m-2">
+                1700 Northside Drive Suite A7 Box 2063 Atlanta, GA 30318
+              </p>
+            </div>
+            <div className="footerCont">
+              <div className="address">
+                <i className="fa fa-phone"></i>
+                <strong>Phone Number</strong>
+              </div>
+              <p className="m-2">1-800-370-8089</p>
+            </div>
+
+            <div className="address">
+              <i className="fa fa-envelope"></i>
+              <strong>Email</strong>
+            </div>
+            <p className="m-2">info@dominionhcis.com</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12">
+            <p className="copyright py-3">
+              Copyright © 2021 | All Rights Reserved Dominion Health Care
+              Foundation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

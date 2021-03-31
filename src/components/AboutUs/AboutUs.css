@@ -1,0 +1,36 @@
+:root {
+  --yellow--: #fcd51f;
+  --darkGray--: #343d47;
+  /* --darkYellow--: #f8cb00; */
+}
+.aboutusContain {
+  background: var(--yellow--);
+}
+.about1 {
+  color: var(--darkGray--);
+}
+.about2 {
+  color: #fff;
+}
+.aboutBtn {
+  border-right: 0.5rem solid var(--darkGray--) !important;
+}
+.aboutBtn:hover {
+  background: var(--darkGray--) !important;
+  color: var(--yellow--) !important;
+}
+.aboutImageSection {
+  background-image: url(../../img/about2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutImg {
+  width: 90%;
+}
+
+@media (max-width: 767px) {
+  .aboutImg {
+    width: 100%;
+  }
+}

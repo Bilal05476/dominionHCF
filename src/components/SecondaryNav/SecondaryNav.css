@@ -1,0 +1,44 @@
+:root {
+  --yellow--: #fcd51f;
+  --darkGray--: #343d47;
+}
+.secondary {
+  background-color: var(--yellow--) !important;
+  color: var(--darkGray--) !important;
+}
+.secContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left__secondary h6,
+.right__secondary h6 {
+  margin: 0.5rem !important;
+}
+.left__secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right__secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right__secondary .fa {
+  padding-right: 1rem;
+  margin: .5rem;
+  border-right: 1px solid var(--darkGray--);
+}
+
+@media (max-width: 767px) {
+  .left__secondary h6 {
+    font-size: 0.5rem !important;
+  }
+
+  .secContainer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+}

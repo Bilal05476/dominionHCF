@@ -1,0 +1,53 @@
+:root {
+  --yellow--: #fcd51f;
+  --darkGray--: #343d47;
+}
+.FeaturedCauses .course1 {
+  color: var(--yellow--);
+}
+
+.FeaturedCauses .course2 {
+  color: var(--darkGray--);
+}
+.FeaturedCauses .card {
+  color: #fff;
+  background-color: var(--darkGray--) !important;
+  border-bottom: 0.2rem solid var(--yellow--) !important;
+}
+.extras {
+  display: flex;
+  justify-content: flex-end;
+}
+.extras .arrowDown {
+  margin-right: 1.2rem;
+  font-size: 1.5rem;
+  background-color: var(--yellow--);
+  color: var(--darkGray--);
+  padding: 0.3rem;
+  border-radius: 50%;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+/* .card {
+  box-shadow: .2rem .2rem .5rem var(--darkGray--);
+} */
+.card .card-title {
+  color: var(--yellow--);
+}
+.slick-arrow {
+  display: none !important;
+}
+.FeaturedCauses .card-footer {
+  background-color: transparent !important;
+  border: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-footer .target {
+  border-left: 0.1rem solid var(--yellow--);
+  border-right: 0.1rem solid var(--yellow--);
+  color: var(--yellow--);
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}

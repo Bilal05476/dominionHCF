@@ -1,0 +1,48 @@
+:root {
+  --yellow--: #fcd51f;
+  --darkGray--: #343d47;
+  --Graddish--: #1a1d20;
+}
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand #logo,
+.navbar-brand #scrollLogo {
+  width: 120px;
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+.navbar-nav .nav-item {
+  color: #fff !important;
+  padding-right: 0.5rem;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+.navbar-toggler .fa {
+  color: var(--yellow--) !important;
+  font-size: 1.5rem !important;
+}
+.navbar-toggler .fa:hover {
+  color: var(--darkGray--) !important;
+}
+.navbar-nav .nav-item:hover {
+  background-color: var(--yellow--) !important;
+  color: var(--darkGray) !important;
+  transition: 0.5s;
+  padding-left: 0.5rem;
+  border-radius: 0.2rem;
+}
+@media (max-width: 850px) {
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+  .navbar-brand img {
+    margin-left: -1rem;
+  }
+  .navbar .navbar-nav {
+    margin-top: 1.5rem;
+  }
+}

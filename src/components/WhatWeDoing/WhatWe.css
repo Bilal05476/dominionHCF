@@ -1,0 +1,47 @@
+:root {
+  --yellow--: #fcd51f;
+  --darkGray--: #343d47;
+}
+.volunteer1 {
+  color: #ffff;
+}
+.volunteer2 {
+  color: var(--yellow--);
+}
+.volunteers {
+  background-color: var(--darkGray--);
+  color: #fff;
+  padding: 2rem;
+}
+.volunteers .helpImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.volunteer__deck {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.volunteer {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow--);
+  padding: 2rem;
+  width: 100% !important;
+  margin: 0.6rem;
+  box-shadow: 0.3rem 0.3rem 0.8rem #333 !important;
+}
+
+.volunteer strong {
+  color: var(--darkGray--);
+}
+
+@media (max-width: 992px) {
+  .volunteer__deck {
+    flex-direction: column;
+  }
+}

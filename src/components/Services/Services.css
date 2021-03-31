@@ -1,0 +1,42 @@
+:root {
+  --yellow--: #fcd51f;
+  --darkGray--: #343d47;
+}
+.help1 {
+  color: #ffff;
+}
+.help2 {
+  color: var(--yellow--);
+}
+.services {
+  background-color: var(--darkGray--);
+  color: #fff;
+  padding: 2rem;
+}
+.services .helpImg {
+  width: 120px;
+  height: 120px;
+  border: 0.2rem solid var(--yellow--);
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.help {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+.help p{
+  text-align: center !important;
+}
+
+.donateBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .services {
+    display: block;
+  }
+}
