@@ -1,4 +1,5 @@
 import "./Services.css";
+import help from "../../img/help.jpeg";
 
 const Services = () => {
   const content = [
@@ -6,8 +7,7 @@ const Services = () => {
       title: "SHARE YOUR VALUABLES",
       description:
         "Share your Valuables with us to add Value in Someone's Life !",
-      image:
-        "https://images.unsplash.com/photo-1603185030522-05d4497bb180?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8c21pbGUlMjBib3l8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      image: help,
     },
     {
       title: "ONLINE HELP",
@@ -52,9 +52,14 @@ const Services = () => {
       </div>
       <div className="row">
         <div className="col-md-12 donateBtn">
-          <button className="my-3" data-aos="zoom-in">
+          <a
+            href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+            target="blank"
+            className="donation__Btn"
+            data-aos="zoom-in"
+          >
             Donate Now
-          </button>
+          </a>
         </div>
       </div>
     </div>

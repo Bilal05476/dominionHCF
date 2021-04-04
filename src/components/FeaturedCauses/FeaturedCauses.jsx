@@ -76,12 +76,15 @@ const FeaturedCauses = () => {
                     <h6 className="card-subtitle mb-2 ">{item.tagLine}</h6>
                     <h5 className="card-title">{item.title}</h5>
                     <p className="card-text">{item.description}</p>
-                    {/* <div className="card-footer">
-                      <p className="raised">Raised ${item.raised}</p>
-                      <p className="target">Target ${item.target}</p>
-                    </div> */}
-                    <div className="text-center">
-                      <button data-aos="zoom-in">Donate Now</button>
+                    <div className="text-center py-3">
+                      <a
+                        href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+                        target="blank"
+                        className="donation__Btn"
+                        data-aos="zoom-in"
+                      >
+                        Donate Now
+                      </a>
                     </div>
                   </div>
                 </div>

@@ -7,6 +7,12 @@
   background-color: transparent;
 }
 
+.navbar .show {
+  background: var(--Graddish--) !important;
+  padding-left: 1.2rem;
+  padding-bottom: 2rem;
+}
+
 .navbar-brand #logo,
 .navbar-brand #scrollLogo {
   width: 120px;
@@ -24,9 +30,11 @@
 .navbar-toggler .fa {
   color: var(--yellow--) !important;
   font-size: 1.5rem !important;
+  padding: 0.5rem !important;
 }
 .navbar-toggler .fa:hover {
   color: var(--darkGray--) !important;
+  background: var(--yellow--) !important;
 }
 .navbar-nav .nav-item:hover {
   background-color: var(--yellow--) !important;

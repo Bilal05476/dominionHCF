@@ -3,6 +3,34 @@
   --darkGray--: #343d47;
   /* --darkYellow--: #f8cb00; */
 }
+.aboutBtn {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  -webkit-transition: all 0.5s ease;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: none;
+  background: #fff;
+  color: var(--darkGray--);
+  border-right: 0.5rem solid var(--yellow--);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 1.2rem 1.6rem;
+  font-weight: 400;
+  font-size: 1rem !important;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.aboutBtn:hover {
+  background: var(--yellow--);
+  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  text-decoration: none !important;
+}
 .aboutusContain {
   background: var(--yellow--);
 }

@@ -48,16 +48,18 @@ const SliderComp = () => (
         >
           <div className="inner">
             <h1>{item.title}</h1>
-            {/* <h5 className="py-1">{item.tagLine}</h5> */}
             <p>{item.description}</p>
-            <button>Donate Now</button>
+            <div className="py-3">
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+                target="blank"
+                className="donation__Btn"
+                data-aos="zoom-in"
+              >
+                Donate Now
+              </a>
+            </div>
           </div>
-          {/* <section>
-            <img src={item.userProfile} alt={item.user} />
-            <span>
-              Posted by <strong>{item.user}</strong>
-            </span>
-          </section> */}
         </div>
       ))}
     </Slider>

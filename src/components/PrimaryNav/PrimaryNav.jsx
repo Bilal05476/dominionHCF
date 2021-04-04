@@ -6,7 +6,6 @@ import FeaturedCauses from "../FeaturedCauses/FeaturedCauses";
 import AboutUs from "../AboutUs/AboutUs";
 import Footer from "../Footer/Footer";
 import WhatWe from "../WhatWeDoing/WhatWe";
-
 const PrimaryNav = () => {
   return (
     <div>
@@ -29,7 +28,7 @@ const PrimaryNav = () => {
           <i className="fa fa-align-right"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ml-auto mx-5 mx-1">
+          <div className="navbar-nav ml-auto mx-5 mx-1 ">
             <a className="nav-item nav-link" id="navLink" href="#">
               Home
             </a>
@@ -46,7 +45,14 @@ const PrimaryNav = () => {
               Contact
             </a>
           </div>
-          <button id="navBtn">Donate Now</button>
+          <a
+            href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+            target="blank"
+            className="donation__Btn"
+            id="navBtn"
+          >
+            Donate Now
+          </a>
         </div>
       </nav>
       <div className="app">

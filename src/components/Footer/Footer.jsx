@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <div className="col-md-3 my-4">
             <h4>Useful Links</h4>
-            <a href="#home" className="footer__link">
+            <a href="#" className="footer__link">
               Home
             </a>{" "}
             <br />
@@ -66,24 +66,24 @@ export default function Footer() {
             <br />
             <div className="footer__icons my-3">
               <a
-                href="https://facebook.com/Dominion-Health-Care-Institute-Staffing-co-108060881361569/"
+                href="https://www.facebook.com/Dominion-Health-Care-Foundation-107220368137748"
                 target="blank"
               >
                 <i className="fa fa-facebook"></i>
               </a>
               <a
-                href="https://instagram.com/dominionhcis?igshid=18z0sq65lzdxm"
+                href="https://www.instagram.com/dominionhealthcarefoundation/"
                 target="blank"
               >
                 <i className="fa fa-instagram"></i>
               </a>
               <a
-                href="https://linkedin.com/company/dominion-health-care-institute-stuffing-co"
+                href="https://www.linkedin.com/company/dominion-health-care-foundation/"
                 target="blank"
               >
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a href="email:info@dominionhcis.com">
+              <a href="mailto:info@dominionhcis.com">
                 <i className="fa fa-google"></i>
               </a>
             </div>

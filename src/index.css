@@ -14,6 +14,35 @@
   --darkGray--: #343d47;
   --Graddish--: #1a1d20;
 }
+.donation__Btn {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  -webkit-transition: all 0.5s ease;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: none;
+  background: #fff;
+  color: var(--darkGray--);
+  border-right: 0.5rem solid var(--yellow--);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 1.2rem 1.6rem;
+  font-weight: 400;
+  font-size: 1rem !important;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.donation__Btn:hover {
+  background: var(--yellow--);
+  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  text-decoration: none !important;
+  color: var(--darkGray--) !important;
+}
 
 html {
   scroll-behavior: smooth;
@@ -31,21 +60,21 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: var(--darkGray--) !important;
-  color: #fff;
+  background-color: var(--yellow--) !important;
+  color: var(--darkGray--);
   cursor: pointer;
   padding: 0rem;
-  padding: .8rem;
+  padding: 0.8rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 50%;
 }
-#myBtn .fa{
+#myBtn .fa {
   font-size: 1.5rem !important;
 }
 #myBtn:hover {
-  background-color: var(--yellow--) !important;
-  color: var(--Graddish--);
+  background-color: var(--darkGray--) !important;
+  color: var(--yellow--);
 }
 
 .app {
@@ -53,8 +82,8 @@ body {
   position: relative;
   height: 85vh;
 }
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .app {
-  height: 65vh;
-}
+    height: 65vh;
+  }
 }
