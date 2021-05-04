@@ -7,7 +7,7 @@ import schoolCause from "../../img/causes2.jpg";
 
 const content = [
   {
-    title: "Dominion Health Care School System",
+    title: "Dominion Health Care Institute & Staffing Company",
     tagLine: "Organization for Everyone",
     description:
       "As a student at Dominion Health Care Institute and Staffing, you will be fully prepared for externship, high qualified training by top qualified instructors with over 50 years combined in experience in the advanced and allied health field. Dominion Health Care Institute and staffing, Co is a rapidly growing Institute.",
