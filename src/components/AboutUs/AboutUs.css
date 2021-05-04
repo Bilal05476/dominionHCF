@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Itim:regular);
 :root {
   --yellow--: #fcd51f;
   --darkGray--: #343d47;
@@ -55,6 +56,10 @@
 }
 .aboutImg {
   width: 90%;
+}
+
+.staffing__name {
+  font-family: "Itim", cursive;
 }
 
 @media (max-width: 767px) {

@@ -1,5 +1,6 @@
 import "./AboutUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import StaffingVideo from '../../video/StaffingVideo.mp4';
 
 export default function AboutUs() {
   return (
@@ -47,6 +48,21 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="col-md-6 aboutImageSection"></div>
+      </div>
+      <div className="row">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6">
+              <video style={{ width: "100%" }} controls>
+                <source src={StaffingVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div className="col-md-6 d-flex justify-content-center align-items-center text-center">
+              <h3 className="staffing__name">Dominion Health Care Institute and Staffing Co.</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
