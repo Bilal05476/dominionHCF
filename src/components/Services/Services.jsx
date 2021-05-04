@@ -47,7 +47,7 @@ const Services = () => {
               <strong>{item.title}</strong>
               <p>{item.description}</p>
             </div>
-          );
+          )
         })}
       </div>
       <div className="row">
