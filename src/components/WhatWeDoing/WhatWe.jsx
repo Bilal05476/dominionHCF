@@ -21,8 +21,8 @@ const WhatWe = () => {
   return (
     <div className="volunteers container-fluid">
       <h3 className="text-center my-5">
-        <strong className="volunteer1">WHAT WE</strong>{" "}
-        <strong className="volunteer2">ARE DOING ?</strong>
+        <strong className="volunteer1">FOUNDATION</strong>{" "}
+        <strong className="volunteer2">EVENTS !!</strong>
       </h3>
 
       <div className="my-4 container volunteer__deck">

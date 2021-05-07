@@ -38,8 +38,8 @@ const PrimaryNav = () => {
             <a className="nav-item nav-link" id="navLink" href="#causes">
               Causes
             </a>
-            <a className="nav-item nav-link" id="navLink" href="#whatwe">
-              What we doing?
+            <a className="nav-item nav-link" id="navLink" href="#events">
+              Foundation Events
             </a>
             <a className="nav-item nav-link" id="navLink" href="#contact">
               Contact
@@ -65,7 +65,7 @@ const PrimaryNav = () => {
       <div id="causes" data-aos="fade-up">
         <FeaturedCauses />
       </div>
-      <div id="whatwe" data-aos="zoom-in">
+      <div id="events" data-aos="zoom-in">
         <WhatWe />
       </div>
       <div id="contact" data-aos="zoom-in">
