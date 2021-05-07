@@ -10,14 +10,14 @@ const content = [
     title: "Dominion Health Care Institute & Staffing Company",
     tagLine: "Organization for Everyone",
     description:
-      "As a student at Dominion Health Care Institute and Staffing, you will be fully prepared for externship, high qualified training by top qualified instructors with over 50 years combined in experience in the advanced and allied health field. Dominion Health Care Institute and staffing, Co is a rapidly growing Institute.",
+      "As a student at Dominion Health Care Institute and Staffing, you will be fully prepared for externship, high qualified training by top qualified instructors with over 50 years combined in experience in the advanced and allied health field. Dominion Health Care Institute and Staffing Co. is a rapidly growing institute.",
     image: schoolCause,
   },
   {
     title: "Online Learning",
     tagLine: "Organization for Everyone",
     description:
-      "Online Learning-Our experts will assure that with our both in person and online curriculum you will be sure to Learn all the tools needed to become the allied professional of your choice. Our team of instructors are certified and assist each student in receiving their certification.",
+      "Online learning our experts will assure that with our both in person and online curriculum you will be sure to learn all the tools needed to become the allied professional of your choice. Our team of instructors are certified and assist each student in receiving their certification.",
     image: educationCause,
   },
 ];
