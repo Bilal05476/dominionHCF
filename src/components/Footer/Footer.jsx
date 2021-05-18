@@ -83,6 +83,12 @@ export default function Footer() {
               >
                 <i className="fa fa-linkedin"></i>
               </a>
+              <a
+                href="https://www.youtube.com/channel/UCDsTNDfuJiGQnw06QJlivgg"
+                target="blank"
+              >
+                <i className="fa fa-youtube"></i>
+              </a>
               <a href="mailto:info@dominionhcis.com">
                 <i className="fa fa-google"></i>
               </a>
