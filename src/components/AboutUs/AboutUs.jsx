@@ -64,6 +64,7 @@ export default function AboutUs() {
                 Dominion Health Care Institute and Staffing Co.
               </h3>
             </div>
+              <div className="linebreak"></div>
             <div className="col-md-6 d-flex justify-content-center align-items-center text-center">
               <h3 className="staffing__name">
                 Dominion Health Care Foundation

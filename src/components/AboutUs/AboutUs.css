@@ -66,4 +66,10 @@
   .aboutImg {
     width: 100%;
   }
+  .linebreak{
+    background-color: var(--darkGray--);
+    height: 1px;
+    width: 100%;
+    margin: 2rem;
+  }
 }
