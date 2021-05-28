@@ -51,7 +51,8 @@ const SliderComp = () => (
             <p>{item.description}</p>
             <div className="py-3">
               <a
-                href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+                href="#"
+                disabled
                 target="blank"
                 className="donation__Btn"
                 data-aos="zoom-in"

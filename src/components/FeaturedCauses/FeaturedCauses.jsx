@@ -78,13 +78,15 @@ const FeaturedCauses = () => {
                     <p className="card-text">{item.description}</p>
                     <div className="text-center py-3">
                       <a
-                        href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+                        href="#"
                         target="blank"
                         className="donation__Btn"
                         data-aos="zoom-in"
+                        disabled
                       >
                         Donate Now
                       </a>
+                      {/* https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE */}
                     </div>
                   </div>
                 </div>

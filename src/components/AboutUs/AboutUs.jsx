@@ -38,10 +38,11 @@ export default function AboutUs() {
           <div className="row">
             <div className="col-md-12 donateBtn">
               <a
-                href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+                href="#"
                 target="blank"
                 className="my-3 aboutBtn"
                 data-aos="zoom-in"
+                disabled
               >
                 Donate Now
               </a>

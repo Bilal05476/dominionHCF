@@ -47,13 +47,14 @@ const Services = () => {
               <strong>{item.title}</strong>
               <p>{item.description}</p>
             </div>
-          )
+          );
         })}
       </div>
       <div className="row">
         <div className="col-md-12 donateBtn">
           <a
-            href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+            href="#"
+            disabled
             target="blank"
             className="donation__Btn"
             data-aos="zoom-in"

@@ -46,10 +46,11 @@ const PrimaryNav = () => {
             </a>
           </div>
           <a
-            href="https://www.paypal.com/donate?hosted_button_id=CYMDQ2J47LTTE"
+            href="#"
             target="blank"
             className="donation__Btn"
             id="navBtn"
+            disabled
           >
             Donate Now
           </a>
