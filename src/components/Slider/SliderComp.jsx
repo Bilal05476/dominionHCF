@@ -10,21 +10,21 @@ import image3 from "../../img/3.jpg";
 
 const content = [
   {
-    title: "Fundraising for the people and causes you care about",
+    title: "Raising Funds to educate those interested in Allied Health Care",
     description: "Get Started Today.",
     image: image1,
     user: "Luan Gjokaj",
     userProfile: "https://i.imgur.com/JSW6mEk.png",
   },
   {
-    title: "Fundraising for the people and causes you care about",
+    title: "Raising Funds to educate those interested in Allied Health Care",
     description: "Get Started Today.",
     image: image2,
     user: "Erich Behrens",
     userProfile: "https://i.imgur.com/0Clfnu7.png",
   },
   {
-    title: "Fundraising for the people and causes you care about",
+    title: "Raising Funds to educate those interested in Allied Health Care",
     description: "Get Started Today.",
     image: image3,
     user: "Bruno Vizovskyy",
