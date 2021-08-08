@@ -1,10 +1,11 @@
 import "./Footer.css";
 import logo from "../../img/footLogo.png";
-import gallery1 from "../../img/gallery1.jpg";
-import gallery2 from "../../img/gallery2.jpg";
-import gallery3 from "../../img/gallery3.jpg";
-import gallery4 from "../../img/gallery4.jpg";
-import gallery5 from "../../img/gallery5.jpg";
+import gallery1 from "../../img/gall1.jpg";
+import gallery2 from "../../img/gall2.jpg";
+import gallery3 from "../../img/gall3.jpg";
+import gallery4 from "../../img/gall4.jpg";
+import gallery5 from "../../img/gall5.jpg";
+import gallery6 from "../../img/gall6.jpg";
 
 export default function Footer() {
   const GalleryImages = [
@@ -24,7 +25,7 @@ export default function Footer() {
       image: gallery5,
     },
     {
-      image: gallery1,
+      image: gallery6,
     },
   ];
   return (
