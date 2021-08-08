@@ -4,31 +4,32 @@ import "react-animated-slider/build/horizontal.css";
 // import "normalize.css/normalize.css";
 import "./slider-animation.css";
 import "./slider.css";
-import image1 from "../../img/1.jpg";
+// import image1 from "../../img/1.jpg";
 import image2 from "../../img/2.jpg";
 import image3 from "../../img/3.jpg";
+import image4 from "../../img/4.jpeg";
+import image5 from "../../img/5.jpg";
 
 const content = [
   {
     title: "Raising Funds to educate those interested in Allied Health Care",
     description: "Get Started Today.",
-    image: image1,
-    user: "Luan Gjokaj",
-    userProfile: "https://i.imgur.com/JSW6mEk.png",
+    image: image4,
   },
   {
     title: "Raising Funds to educate those interested in Allied Health Care",
     description: "Get Started Today.",
     image: image2,
-    user: "Erich Behrens",
-    userProfile: "https://i.imgur.com/0Clfnu7.png",
   },
   {
     title: "Raising Funds to educate those interested in Allied Health Care",
     description: "Get Started Today.",
     image: image3,
-    user: "Bruno Vizovskyy",
-    userProfile: "https://i.imgur.com/4KeKvtH.png",
+  },
+  {
+    title: "Raising Funds to educate those interested in Allied Health Care",
+    description: "Get Started Today.",
+    image: image5,
   },
 ];
 
