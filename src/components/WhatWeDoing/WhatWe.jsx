@@ -1,21 +1,22 @@
 import "./WhatWe.css";
 import educationImage from "../../img/education.png";
 import welfareImage from "../../img/welfare.png";
-import medicalImage from "../../img/medical.png";
+// import medicalImage from "../../img/medical.png";
+import employImage from "../../img/employment.png";
 
 const WhatWe = () => {
   const content = [
     {
-      title: "WELFARE",
+      title: "Health and Wellness Fairs",
       image: welfareImage,
     },
     {
-      title: "EDUCATION",
+      title: "Education Fairs",
       image: educationImage,
     },
     {
-      title: "MEDICAL",
-      image: medicalImage,
+      title: "Employment Fairs",
+      image: employImage,
     },
   ];
   return (
