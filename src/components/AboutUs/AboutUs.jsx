@@ -1,6 +1,6 @@
 import "./AboutUs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import StaffingVideo from '../../video/StaffingVideo.mp4';
+import StaffingVideo from "../../video/StaffingVideo.mp4";
 import FoundationVideo from "../../video/DHCF.mp4";
 
 export default function AboutUs() {
@@ -16,10 +16,10 @@ export default function AboutUs() {
           <p className="p-2 ">
             Dominion Health Care Foundation is a rapidly growing non profit
             organization that takes an unconventional approach to the standard
-            by providing allied health training. This process has proven to
-            yield higher performance efficiency over the years with a goal to
-            provide food, low interest loans, and career development for careers
-            that do not require a 4-year college degree.
+            by providing the resources needed for Scholarships, Health and
+            Wellness Awareness, Community and Economic Development, and
+            Fundraising for individuals with the interest to pursue an Allied
+            Health Career.
             <br />
             Fundamental to this work is filling gaps in knowledge, skills, and
             abilities by assessing individual needs and addressing those gaps
@@ -65,7 +65,7 @@ export default function AboutUs() {
                 Dominion Health Care Institute and Staffing Co.
               </h3>
             </div>
-              <div className="linebreak"></div>
+            <div className="linebreak"></div>
             <div className="col-md-6 d-flex justify-content-center align-items-center text-center">
               <h3 className="staffing__name">
                 Dominion Health Care Foundation

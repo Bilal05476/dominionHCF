@@ -1,5 +1,8 @@
 import "./Services.css";
 import help from "../../img/help.jpeg";
+import onlineHelp from "../../img/onlineHelp.jpg";
+import expertise from "../../img/expertise.jpg";
+import inspiration from "../../img/inspiration.jpg";
 
 const Services = () => {
   const content = [
@@ -13,23 +16,19 @@ const Services = () => {
       title: "ONLINE HELP",
       description:
         "You Can Connect with us by Our Online Help Department for your Queries and Donations !",
-
-      image: "https://www.smartanswer.com/images/bann_1.jpg",
+      image: onlineHelp,
     },
     {
       title: "GIVE INSPIRATION",
       description:
         "You can Become Someone's Inspiration by Sharing your Innovative Ideas and Achievements !",
-
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReqKdR2sdvRUKCuvP43Y75cv96euxYIMGLc4ltXRzqVPjDFw2TtMdK3qO07961CjDkVWk&usqp=CAU",
+      image: inspiration,
     },
     {
       title: "SHARE EXPERTISE",
       description:
         "You can share your Expertise with us and also make a best of your part in our major Causes !",
-      image:
-        "https://www.campusfrance.org/sites/default/files/expertise_conception%20programme%20bourses%20sur%20mesure.jpg",
+      image: expertise,
     },
   ];
   return (
