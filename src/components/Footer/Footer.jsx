@@ -130,7 +130,7 @@ export default function Footer() {
                 <strong>Corporate Address</strong>
               </div>
               <p className="m-2">
-                1700 Northside Drive Suite A7 Box 2063 Atlanta, GA 30318
+                1220 Walter Reed Road Suites 100 & 102 Fayetteville, NC 28304
               </p>
             </div>
             <div className="footerCont">
@@ -145,7 +145,7 @@ export default function Footer() {
               <i className="fa fa-envelope"></i>
               <strong>Email</strong>
             </div>
-            <p className="m-2">info@dominionhcis.com</p>
+            <p className="m-2">info@dominionhealthcarefoundation.com</p>
           </div>
         </div>
         <div className="row">
