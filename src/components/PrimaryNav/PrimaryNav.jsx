@@ -46,7 +46,7 @@ const PrimaryNav = () => {
             </a>
           </div>
           <a
-            href="#"
+            href="https://link.clover.com/urlshortener/rXyCkJ"
             target="blank"
             className="donation__Btn"
             id="navBtn"
