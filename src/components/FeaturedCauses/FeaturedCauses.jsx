@@ -78,7 +78,7 @@ const FeaturedCauses = () => {
                     <p className="card-text">{item.description}</p>
                     <div className="text-center py-3">
                       <a
-                        href="#"
+                        href="https://link.clover.com/urlshortener/rXyCkJ"
                         target="blank"
                         className="donation__Btn"
                         data-aos="zoom-in"
