@@ -52,7 +52,7 @@ const SliderComp = () => (
             <p>{item.description}</p>
             <div className="py-3">
               <a
-                href="#"
+                href="https://link.clover.com/urlshortener/rXyCkJ"
                 disabled
                 target="blank"
                 className="donation__Btn"
