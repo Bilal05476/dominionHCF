@@ -38,7 +38,7 @@ export default function AboutUs() {
           <div className="row">
             <div className="col-md-12 donateBtn">
               <a
-                href="#"
+                href="https://link.clover.com/urlshortener/rXyCkJ"
                 target="blank"
                 className="my-3 aboutBtn"
                 data-aos="zoom-in"
