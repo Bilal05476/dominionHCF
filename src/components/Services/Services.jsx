@@ -52,8 +52,8 @@ const Services = () => {
       <div className="row">
         <div className="col-md-12 donateBtn">
           <a
-            href="#"
-            disabled
+            href="https://link.clover.com/urlshortener/rXyCkJ"
+            
             target="blank"
             className="donation__Btn"
             data-aos="zoom-in"
