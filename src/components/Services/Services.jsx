@@ -53,7 +53,7 @@ const Services = () => {
         <div className="col-md-12 donateBtn">
           <a
             href="https://link.clover.com/urlshortener/rXyCkJ"
-            
+            disabled
             target="blank"
             className="donation__Btn"
             data-aos="zoom-in"
