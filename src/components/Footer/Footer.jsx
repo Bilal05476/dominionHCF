@@ -145,13 +145,13 @@ export default function Footer() {
               <i className="fa fa-envelope"></i>
               <strong>Email</strong>
             </div>
-            <p className="m-2">info@dominionhealthcarefoundation.com</p>
+            <p className="m-2">info@dominionhccorp.com</p>
           </div>
         </div>
         <div className="row">
           <div className="col-md-12">
             <p className="copyright py-3">
-              Copyright © 2021 | All Rights Reserved Dominion Health Care
+              Copyright © 2023 | All Rights Reserved Dominion Health Care
               Foundation.
             </p>
           </div>
